@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página oficial de Fichi - Creador de contenido y streamer.">
+    <title>Fichi - Página Oficial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #32cd32, #ffffff); /* Degradado de verde a blanco */
+            color: #333;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header */
+        header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://source.unsplash.com/1600x900/?nature') no-repeat center center/cover;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 4rem;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            letter-spacing: 4px;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            letter-spacing: 1.5px;
+        }
+
+        /* Buttons */
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .cta-buttons a {
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: white;
+            background: linear-gradient(135deg, #32cd32, #228b22); /* Degradado verde */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .cta-buttons a:hover {
+            background: linear-gradient(135deg, #228b22, #32cd32); /* Verde inverso */
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Biography Section */
+        .bio {
+            padding: 80px 20px;
+            background-color: #f7f7f7;
+            text-align: center;
+            color: #333;
+        }
+
+        .bio h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #32cd32;
+        }
+
+        .bio p {
+            font-size: 1.2rem;
+            max-width: 900px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #141414;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+            color: #999;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 3rem;
+            }
+
+            header p {
+                font-size: 1.2rem;
+            }
+
+            .bio h2 {
+                font-size: 2rem;
+            }
+
+            .bio p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Fichi</h1>
+    <p>Streamer | Creador de Contenido</p>
+    <div class="cta-buttons">
+        <a href="https://youtube.com/@fichisurvive?si=9obJMHTglazOjRqP" target="_blank">YouTube</a>
+        <a href="https://www.instagram.com/fichisurvive/" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com/@fichisurvive" target="_blank">TikTok</a>
+        <a href="https://www.facebook.com/FichiSurvive/" target="_blank">Facebook</a>
+        <a href="https://discord.com/invite/C3YWm9TDXy" target="_blank">Discord</a>
+    </div>
+</header>
+
+<section class="bio">
+    <h2>Sobre mí</h2>
+    <p>¡Bienvenidos a la página oficial de Fichi! Explora mis redes, participa en la comunidad y acompáñame en mis aventuras como streamer y creador de contenido.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Fichi. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
